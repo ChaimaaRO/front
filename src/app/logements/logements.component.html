@@ -1,0 +1,74 @@
+<!-- <div class="card">
+  <div class="card-img-container">
+    <img src="/assets/images/logement.jpg" alt="Image de logement" class="card-img">
+    <img src="/assets/images/owner.jpg" alt="Image de propriétaire" class="owner-img">
+  </div>
+  <div class="card-ratings">
+    <span class="star">&#9733;</span>
+    <span class="star">&#9733;</span>
+    <span class="star">&#9733;</span>
+    <span class="star">&#9733;</span>
+    <span class="star">&#9733;</span>
+  </div>
+  <div class="card-description">
+    <h2 class="card-title">Titre de logement</h2>
+    <p class="card-text">Description de logement</p>
+    <a href="#" class="card-link">Voir détails</a>
+  </div>
+  <div class="card-prices">
+    <div class="price">
+      <h3>Par nuit</h3>
+      <p>100€</p>
+    </div>
+    <div class="price">
+      <h3>Par semaine</h3>
+      <p>600€</p>
+    </div>
+    <div class="price">
+      <h3>Par mois</h3>
+      <p>2000€</p>
+    </div>
+  </div>
+  <div class="card-room-type">
+    <h4>Type de chambre</h4>
+    <p>Privée</p>
+  </div>
+  <div class="card-address">
+    <p>Adresse de logement</p>
+  </div>
+  <button class="card-btn">Voir annonce</button>
+</div> -->
+
+
+<div class="search-container">
+  <app-header></app-header>
+</div>
+<!-- <div class="card">
+  <img src="/assets/images/logement.jpg" alt="Image de la maison">
+  <div class="card-body">
+    <h2 class="card-title">Titre de la maison</h2>
+    <p class="card-description">Description de la maison</p>
+    <ul class="card-details">
+      <li class="card-detail">Chambres : 3</li>
+      <li class="card-detail">Salles de bain : 2</li>
+      <li class="card-detail">Surface : 120 m²</li>
+      <li class="card-detail">Prix : 200 000 €</li>
+    </ul>
+    <button class="card-btn">Voir plus</button>
+  </div>
+</div> -->
+
+<p-card [style]="{ width: '330px', height: '440px', position: 'relative' }">
+  <ng-template pTemplate="header">
+      <img alt="Card" src="./assets/images/logement.jpg" />
+  </ng-template>
+  <ng-template pTemplate="content">
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+    </p>
+  </ng-template>
+  <ng-template pTemplate="footer" style="display: block; width: 100%;">
+    <p-button label="Voir l'annonce" styleClass="p-button-sm p-button-success" style="position: absolute; bottom: 10px;"></p-button>
+  </ng-template>
+</p-card>
+

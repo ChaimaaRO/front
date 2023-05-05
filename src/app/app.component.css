@@ -1,0 +1,12 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #EFEFEF;
+  height: 100vh;
+  width: 100%;
+  /* font-family: "sofia-pro", sans-serif; */
+  font-family: "urw-din", sans-serif;
+}

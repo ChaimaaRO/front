@@ -1,0 +1,60 @@
+.search-bar {
+  margin-top: 220px;
+}
+
+.destination{
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+  text-indent: 50px;
+}
+.bouton-rechercher{
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  cursor: pointer;
+}
+.date{
+  padding: 10px;
+}
+.voyageurs{
+  text-indent: 16px;
+}
+.search-bar form {
+  display: flex;
+  align-items: center;
+}
+
+.destination,
+.date,
+.voyageurs,
+.bouton-rechercher {
+  height: 60px;
+  display: inline-block;
+  vertical-align: middle;
+  border: none;
+  /* box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px; */
+}
+
+.destination,
+.date,
+.voyageurs {
+  border-right: 1px solid #979494;
+  background-color: #EFEFEF;
+}
+
+.date {
+  padding-right: 40px; /* pour laisser de l'espace pour l'icône */
+  background-image: url('/assets/calendar-icon.png');
+  background-repeat: no-repeat;
+  /* background-position: right center; */
+  background-position: calc(100% - 25px) center;
+  background-size: 20px 20px;
+}
+
+
+.date::-webkit-input-placeholder {
+  /* Safari/Chrome */
+  color: transparent;
+}
+.iconcalendar{
+  margin: 15px;
+}

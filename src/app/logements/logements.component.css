@@ -1,0 +1,103 @@
+/* .card {
+  width: 300px;
+  height: 600px;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  overflow: hidden;
+}
+
+.card-image {
+  height: 50%;
+  position: relative;
+}
+
+.card-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.owner-image {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #fff;
+  position: absolute;
+  bottom: -25px;
+  left: 25px;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.card-body {
+  padding: 10px;
+  height: 50%;
+}
+
+.ratings {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.rating-number {
+  font-size: 20px;
+  margin-right: 5px;
+}
+
+.stars {
+  color: gold;
+}
+
+.description {
+  margin-bottom: 10px;
+}
+
+.description a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+.prices {
+  margin-bottom: 10px;
+}
+
+.price-label {
+  font-weight: bold;
+}
+
+.price-value {
+  font-weight: bold;
+  color: green;
+}
+
+.room-type {
+  margin-bottom: 10px;
+}
+
+.address {
+  font-size: 12px;
+  color: #999;
+  margin-bottom: 10px;
+}
+
+.card-footer {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 10%;
+}
+
+.card-footer button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.card-footer button:hover {
+  background-color: #0069d9;
+} */

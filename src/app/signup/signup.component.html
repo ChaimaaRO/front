@@ -1,0 +1,64 @@
+<p-card styleClass="user-form" class="flex justify-content-center" >
+	<h3>Inscription</h3>
+   <p class="creervotrecompte">Créér votre compte </p>
+<form [formGroup]="userForm"  >
+	<div class="field">	
+		<input 
+		type="text" 
+		pInputText  
+		placeholder="Nom" 
+		formControlName="firstName"
+		/>
+		<small class="p-error block" *ngIf="userForm.get('firstName')?.invalid && userForm.get('firstName').dirty"> first name is required</small>
+	</div>
+	<div class="field">
+		<input 
+		type="text" 
+		pInputText  
+		placeholder="Prénom" 
+		formControlName="lastName"
+		/>
+		<small class="p-error block" *ngIf="userForm.get('lastName')?.invalid && userForm.get('lastName').dirty"> last name is required</small>
+		</div>
+		
+<div class="card flex justify-content-center">
+    <form [formGroup]="formGroup2">
+        <p-dropdown formControlName="Genre" [options]="cities" optionLabel="name" placeholder="Genre"></p-dropdown>
+    </form>
+</div>
+
+<div class="card flex justify-content-center">
+    <form [formGroup]="formGroup">
+        <p-calendar formControlName="date" placeholder="Date de naissance"></p-calendar>
+    </form>
+</div>
+			<div class="field">
+				<input 
+				type="text" 
+				pInputText  
+				placeholder="Adresse" 
+				formControlName="adresse"
+				/>		
+		</div>
+		
+
+	
+	
+	
+
+	
+	
+<!-- <button pButton  type="submit" label="Submit" class="p-button-success" (click)="showDialog()"></button> -->
+</form>
+</p-card>
+<!-- <p-dialog #myDialog header="Choisissez votre type de compte" [(visible)]="displayDialog" [style]="{width: '400px'}">
+    <div class="ui-g">
+       <div class="ui-g-12">
+          <button pButton type="button" label="Locataire" class="ui-button-success" (click)="onLocataireClick()"></button>
+          <button pButton type="button" label="Propriétaire" class="ui-button-secondary" (click)="onProprietaireClick()"></button>
+       </div>
+    </div>
+ </p-dialog> -->
+ <!-- <router-outlet></router-outlet> -->
+ <!-- <a routerLink="popup">FaceSnaps</a> -->
+ <!-- <button class="inscription-btn" (click)="onContinue()">S'inscrire</button> -->

@@ -1,0 +1,98 @@
+input[type=text],[type=email],select{
+    width: 100%;
+    padding:12px 20px;
+    margin :8px 0;
+    display:inline-block;
+    border: 1px solid #ccc;
+    border-radius : 4px;
+    box-sizing : border-box;}
+    
+    input[type=submit]{
+    background-color: #4CAF50;
+    width: 100%;
+    color : white;
+    padding:14px 20px;
+    margin :8px 0;
+    border: none;
+    border-radius : 4px;
+    cursor : pointer;}
+    
+    input[type=submit]:hover{
+    background-color: #45a049;}
+    .form {
+    border-radius: 5px;
+    background-color:#f2f2f2;
+    padding: 20px;
+    width: 454px;
+    height: 621px;
+    margin-left: 550px;
+    /* margin: 40px; */
+} 
+/*     
+i {
+    margin-right: 10px;
+  } */
+  /* .input-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .input-container label {
+    margin-right: 10px;
+    width: 100px;
+  }
+  
+  .input-container .icon {
+    margin-right: 10px;
+  }
+  
+  .input-container input {
+    flex-grow: 1;
+  } */
+  :host >>> .p-inputtext{
+    width:100%;
+  }
+  :host >>> .user-form{
+    width:30%;
+    margin-left: 560px;
+    margin-top: 70px;
+  }
+  :host >>> .p-calendar{
+    width:100%;
+    margin-top: 10px;
+  }
+  :host >>> .p-dropdown{
+    width:100%;
+    margin-top: 10px;
+  }
+  h3 {
+   /* font-family: Poppins, sans-serif; 
+   fon */
+   font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 30px;
+
+color: #206036;
+    
+  }
+  
+.creervotrecompte{
+  width: 192px;
+height: 15px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 21px;
+
+color: #7C6A59;
+
+}
+  
+  
+  
+  

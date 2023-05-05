@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Logements</title>
+</head>
+<body>
+  <header class="header">
+    <div class="logo">Search bit</div>
+    <div class="menu">
+      <a routerLink="/" class="menu-link">Accueil</a>
+      <a routerLink="/logements" class="menu-link">Logements</a>
+      <button class="identification-btn">S'identifier</button>
+     <button class="inscription-btn" (click)="signup()">S'inscrire</button>
+    
+
+
+    </div>
+  </header>
+  <div class="search-container" *ngIf="router.url !== '/logements'">
+    <app-search-bar></app-search-bar>
+  </div>
+  <div>
+   <div class="container">
+    <div>
+<div class="card flex justify-content-between">
+  <p-badge [value]="getBadgeValue1()"></p-badge>
+  <span>Recherchez</span>
+</div> 
+<div class="rechercher-paragraph"><p> Recherchez une chambre en fonction <br>de votre destination, budget,<br> et préférence.</p></div>
+</div>
+<div>
+<div class="card flex justify-content-between">
+  <p-badge [value]="getBadgeValue2()"></p-badge>
+  <span>Reservez</span>
+</div> 
+<div class="rechercher-paragraph"><p> Réservez en ligne avec le paiement <br>sécurisé, votre facture de location <br>sont automatiquement édités.</p></div>
+</div>
+<div>
+  <div class="card flex justify-content-between">
+    <p-badge [value]="getBadgeValue3()"></p-badge>
+    <span>Vous êtes logez !</span>
+  </div> 
+  <div class="rechercher-paragraph"><p> Dormez dans un logement économique<br> et conviviale lors d’un stage, un <br>entretien, un concours.</p></div>
+  </div>
+</div> 
+<div class="container2">
+  <div>
+<div class="card flex justify-content-center">
+  <button pButton class="p-button-success">
+
+    <img src="/assets/images/homeicon.png" alt="Home Icon" style="margin-right: 15px;"> 
+    Louez votre logement
+  </button>
+</div>
+</div>
+<div>
+  <div class="card flex justify-content-center">
+    <button pButton class="p-button-success">
+        <img src="/assets/images/devenirLocataireicon.png" alt="Home Icon" style="margin-right: 15px;"> 
+   
+      Devenir locataire
+    </button>
+  </div>
+  </div>
+</div>
+</div>
+
+<footer class="footer">
+  <p>Trouvez une chambre à louer chez l’habitant à la nuitée, à la semaine, au mois ou à l'année pour de courts et longs séjours, une colocation temporaire : des études,<br> un stage, un déplacement professionnel, une recherche de logement.</p>
+ <p class="footerwhite">Louez votre logement | Devenir locataire | </p> 
+ <div class="separator"></div>
+  <!-- <div class="social-icons">
+ <a href="#" class="facebook"><i class="fab fa-facebook"></i></a>
+  <a href="#" class="twitter"><i class="fab fa-twitter"></i></a>
+  <a href="#" class="whatsapp"><i class="fab fa-whatsapp"></i></a>
+  </div> -->
+</footer>
+
+  
+</body>
+</html>
+
+
